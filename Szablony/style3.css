@@ -30,8 +30,7 @@ height:500px;
 {
 width:580px;
 float: left;
-background: rgb(50,213,177);
-background: linear-gradient(90deg, rgba(50,213,177,1) 0%, rgba(9,120,121,1) 51%, rgba(0,155,255,1) 100%);
+color:644983;
 height:500px;
 }
 #right{
@@ -61,4 +60,12 @@ font-size: 40px;
 color: white:
 text-align: center:
 line-height: 3:
-}	
+}
+#nav
+{
+font-size: 30 px;
+width: auto ;
+height: 85 px;
+clear: both;
+)
+	
