@@ -13,8 +13,8 @@ body
 #header
 {
 height: 150 px;
-background: rgb(50,213,177);
-background: linear-gradient(90deg, rgba(50,213,177,1) 0%, rgba(9,120,121,1) 51%, rgba(0,155,255,1) 100%);
+background: rgb(238,188,241);
+background: linear-gradient(90deg, rgba(238,188,241,1) 0%, rgba(158,48,172,1) 51%, rgba(124,2,136,1) 100%);
 margin-top:10px;
 }
 	
