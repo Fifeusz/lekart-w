@@ -1,0 +1,112 @@
+<canvas id="canvas" width="400" height="300"></canvas>
+
+<script>
+var canvas = document.getElementById('canvas');
+var context = canvas.getContext('2d');
+
+// monitor
+context.beginPath();
+context.rect(20, 20, 360, 240);
+context.fillStyle = '#000000';
+context.fill();
+context.stroke();
+
+// ekran
+context.beginPath();
+context.rect(40, 40, 320, 200);
+context.fillStyle = '#ffffff';
+context.fill();
+context.stroke();
+
+// podstawka
+context.beginPath();
+context.rect(140, 260, 120, 20);
+context.fillStyle = '#000000';
+context.fill();
+context.stroke();
+
+// klawiatura
+context.beginPath();
+context.rect(40, 260, 80, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.rect(130, 260, 20, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.rect(160, 260, 20, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.rect(190, 260, 20, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.rect(220, 260, 20, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.rect(250, 260, 20, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.rect(280, 260, 20, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.rect(310, 260, 20, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+// myszka
+context.beginPath();
+context.rect(360, 240, 20, 20);
+context.fillStyle = '#cccccc';
+context.fill();
+context.stroke();
+
+context.beginPath();
+context.arc(370, 250, 5, 0, 2 * Math.PI);
+context.fillStyle = '#000000';
+context.fill();
+
+// kabel zasilający
+context.beginPath();
+context.moveTo(300, 280);
+context.lineTo(350, 280);
+context.strokeStyle = '#000000';
+context.stroke();
+
+context.beginPath();
+context.lineTo(350, 300);
+context.strokeStyle = '#000000';
+context.stroke();
+
+// kabel VGA
+context.beginPath();
+context.moveTo(60, 60);
+context.lineTo(60, 260);
+context.strokeStyle = '#000000';
+context.stroke();
+
+context.beginPath();
+context.lineTo(20, 260);
+context.strokeStyle = '#000000';
+context.stroke();
+</script>
