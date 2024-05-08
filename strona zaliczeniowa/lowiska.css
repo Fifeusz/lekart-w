@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+	background-image: url('https://rybyochaby.pl/wp-content/uploads/55E4009A-F555-4BEF-A6FB-24CCB0736403-1030x687.jpeg');
+background-size:100%;
+font-family:Apple Chancery, cursive;
+font-size: 30px ;
+color:#FFFFFF;
+}
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+	font-family:Apple Chancery, cursive;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+footer {
+    background-color: #333;
+    color: white;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:60px;
+font-family:Apple Chancery, cursive;	
+}
